@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Akronim");
+:root {
+  --backgroundColor: #2d2b33;
+  --lightBackgroundColor: #17141d;
+  --accentColor: #ffffff;
+  --altAccentColor: #ff9822;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  color: white;
+  background: var(--backgroundColor);
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+#headerDownload {
+  display: block;
+  font-weight: bold;
+  font-size: 16pt;
+  text-align: center;
+  background-color: rgba(255, 152, 34, 0.2);
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #ff9822;
+  cursor: pointer;
+  margin: 5px;
+}
+#headerDownload p {
+  margin: 0;
+}
+
+#headerExpired {
+  display: block;
+  font-weight: bold;
+  font-size: 16pt;
+  text-align: center;
+  background-color: rgba(255, 34, 34, 0.2);
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #ff2222;
+  cursor: pointer;
+}
+#headerExpired p {
+  margin: 0;
+}
+
+.image {
+  max-height: 256px;
+  width: auto;
+  height: auto;
+  border: 5px solid var(--accentColor);
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+#images {
+  margin-bottom: 70px;
+}
+
+.hiddenDiv {
+  display: none !important;
+}
+
+#footer {
+  text-align: center;
+  display: block;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  background: #1e1d22;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */

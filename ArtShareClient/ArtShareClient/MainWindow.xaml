@@ -1,0 +1,26 @@
+﻿<Window x:Class="ArtShareClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ArtShareClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top"/>
+        <TextBox x:Name="UsernameBox" Height="23" Margin="68,9,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,38,0,0" TextWrapping="Wrap" Text="FurAffinity" VerticalAlignment="Top"/>
+        <TextBox x:Name="FurAffinityBox" Height="23" Margin="68,37,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,66,0,0" TextWrapping="Wrap" Text="Twitter" VerticalAlignment="Top"/>
+        <TextBox x:Name="TwitterBox" Height="23" Margin="68,65,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,94,0,0" TextWrapping="Wrap" Text="Discord" VerticalAlignment="Top"/>
+        <TextBox x:Name="DiscordBox" Height="23" Margin="68,93,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="SubmitBtn" Content="Submit" Margin="10,121,10,0" VerticalAlignment="Top" Click="SubmitBtn_Click"/>
+        <Button x:Name="UploadZipBtn" Content="Upload Zip File" Margin="10,195,10,0" VerticalAlignment="Top" Click="UploadZipBtn_Click"/>
+        <TextBox x:Name="ZipFileUsernameBox" Height="23" Margin="10,167,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="UnzipOnServerBtn" Content="Unzip on server" Margin="10,220,10,0" VerticalAlignment="Top" Click="UnzipOnServerBtn_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,146,0,0" TextWrapping="Wrap" Text="Username for actions below" VerticalAlignment="Top"/>
+        <Button x:Name="OpenWebForUser" Content="Open galary on web for user" Margin="10,245,10,0" VerticalAlignment="Top" Click="OpenWebForUser_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+{
+  "name": "artshareweb",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "buildcss": "sass --watch .\\styles\\main.scss .\\styles\\main.css"
+  },
+  "author": "Founntain",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
